@@ -1,6 +1,6 @@
 <?php
   if(isset($_POST['submit'])){
-    $to = "contact@ruchitmodi.16mb.com";
+    $to = "modi.ruchit6+webhost@gmail.com";
     $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $name . " contacted me through my Website.";
@@ -34,8 +34,12 @@
 
     // Contact Me ka Thank You message
     function thankyou() {
-      window.alert('Your message has been sent!')
-      window.location.reload();
+      $.notify({
+        icon: 'glyphicon glyphicon-info-sign',
+        message: 'Your message has been sent!'
+      });
+      // window.alert('Your message has been sent!')
+      // window.location.reload();
     }
     </script>
   </head>
@@ -52,16 +56,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#ruchit-modi" title="Back To Top">Ruchit Modi</a>
+          <a class="navbar-brand smooth-scroll" href="#ruchit-modi" title="Back To Top">Ruchit Modi</a>
         </div>
         <!-- navbar-collapse -->
         <div class="collapse navbar-collapse" id="navbar">
           <a href="download/Resume_Ruchit_Modi.pdf" title="Download My Resume" class="btn btn-success navbar-btn navbar-right"><span class="glyphicon glyphicon-file"></span> Resume</a>
           <ul class="nav navbar-nav">
-            <li role="presentation" class="active"><a href="#about-me" title="Read About Me">About Me</a></li>
-            <li role="presentation"><a href="#skills" title="Look At My Skills">Skills</a></li>
-            <li role="presentation"><a href="#stuffs-made" title="See Stuffs Made">Stuffs Made</a></li>
-            <li role="presentation"><a href="#contact-me" title="Say Hi">Contact Me</a></li>
+            <li role="presentation" class="active"><a class="smooth-scroll" href="#about-me" title="Read About Me">About Me</a></li>
+            <li role="presentation"><a class="smooth-scroll" href="#skills" title="Look At My Skills">Skills</a></li>
+            <li role="presentation"><a class="smooth-scroll" href="#stuffs-made" title="See Stuffs Made">Stuffs Made</a></li>
+            <li role="presentation"><a class="smooth-scroll" href="#contact-me" title="Say Hi">Contact Me</a></li>
           </ul>
         </div>
         <!--navbar-collapse -->
@@ -81,7 +85,7 @@
           <li><a href="https://plus.google.com/+RuchitModi" target="_blank" title="Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
           <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
           <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/flat_web_icon_set/color/GitHub-light.png"></a></li>
-          <li><a href="mailto:contact@ruchitmodi.16mb.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+          <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
         </ul>
       </div>
     </div>
@@ -92,7 +96,7 @@
     <div class="container">
       <section>
         <div class="page-header" id="about-me">
-          <h2>About Me.</h2>
+          <h2>About Me</h2>
         </div>
         <div class="row">
           <div class="col-sm-4">
@@ -136,7 +140,7 @@
     <div class="container">
       <section>
         <div class="page-header" id="skills">
-          <h2>Skills.</h2>
+          <h2>Skills</h2>
         </div>
         <frameset>
           <iframe id="mindmap" class="mindmap" src="mindmap/index.html"></iframe>
@@ -151,12 +155,12 @@
     <div class="container">
       <section>
         <div class="page-header" id="stuffs-made">
-          <h2>Stuffs Made.</h2>
+          <h2>Stuffs Made</h2>
         </div>
 
         <div class="row featurette">
           <div class="col-sm-7">
-            <h3 class="featurette-heading">Machine Learning. <br /><span class="text-muted">Email Classification.</span></h3>
+            <h3 class="featurette-heading">Machine Learning <br /><span class="text-muted">Email Classification</span></h3>
             <p class="lead">A content-based classification program to classify new emails containing a variety of messages into user-defined folders, that will help the users to organize their emails systematically and in a more convenient manner, using Machine Learning algorithms viz. K Nearest Neighbors &amp; Naïve Bayes. It was made as a Final Year Project in the B. Tech. Programme.</p>
             <a href="https://github.com/rmodi6/Email-Classification" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code-fork"></i> Fork</button></a>
             <a href="https://link.springer.com/chapter/10.1007/978-981-10-6875-1_9" title="Springer Published Paper"><button class="btn btn-success"><i class="fa fa-paperclip"></i> Paper</button></a>
@@ -177,7 +181,7 @@
 
         <div class="row featurette">
           <div class="col-sm-7 col-sm-push-5" >
-            <h3 class="featurette-heading">Database Management System. <br /><span class="text-muted">Company-Clinic Database Management.</span></h3>
+            <h3 class="featurette-heading">Database Management System <br /><span class="text-muted">Company-Clinic Database Management</span></h3>
             <p class="lead">An application software that can be used by a company-clinic to keep records of all the employees and their relatives for their free treatment at the company&#39;s clinic along with the information of medicines &amp; prescriptions, and many other features.</p>
             <a href="download/Company Clinic Database System (Eclipse Project).rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="download/Company Clinic Database Management.rar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
@@ -227,7 +231,7 @@
 
         <div class="row featurette">
           <div class="col-sm-7">
-            <h3 class="featurette-heading">Java Applets. <br /><span class="text-muted">Snakes 2 Game.</span></h3>
+            <h3 class="featurette-heading">Java Applets <br /><span class="text-muted">Snakes 2 Game</span></h3>
             <p class="lead">A 2-player version of the classic Snake game made using Java AWT tools in Eclipse IDE.</p>
             <a href="snakes2/Snakes2.jar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="snakes2/Snakes2.html" title="Play It!" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=300,height=300');
@@ -279,7 +283,7 @@
 
         <div class="row featurette">
           <div class="col-sm-7 col-sm-push-5">
-            <h3 class="featurette-heading">Java Swing. <br /><span class="text-muted">Minesweeper Game.</span></h3>
+            <h3 class="featurette-heading">Java Swing <br /><span class="text-muted">Minesweeper Game</span></h3>
             <p class="lead">The age-old annoying Minesweeper game on Windows implemented in Java using Java Swing tools that required deep knowledge of data structures and algorithms.</p>
             <a href="download/Minesweeper Game.rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="download/Minesweeper_byRuchit.rar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
@@ -337,7 +341,7 @@
     <div class="container well">
       <section>
         <div class="page-header" id="contact-me">
-          <h3>Contact Me.</h3>
+          <h3>Contact Me</h3>
         </div>
         <div class="row">
           <div class="col-sm-8 pull-left">
@@ -384,7 +388,7 @@
             <br />
             <p class="lead">Mail me at</p>
             <ul class="share-buttons">
-              <li><a href="mailto:contact@ruchitmodi.16mb.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
             </ul>
           </div>
         </div>
@@ -402,16 +406,17 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
     <!-- Scrolling JavaScript -->
-    <!-- <script type="text/javascript">
-      $('a').click(function(){
+    <script type="text/javascript">
+      $('a.smooth-scroll').click(function(){
           $('html, body').animate({
               scrollTop: $( $.attr(this, 'href') ).offset().top
           }, 500);
           return false;
       });
-    </script> -->
+    </script>
     <!-- Bootstrap JavaScript -->
     <script type="text/javascript" src="paper/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="paper/js/bootstrap-notify.min.js"></script>
     <script type="text/javascript">
       $('#mindmap').on('load', function() {
         $("#mindmap").contents().find("div").last().remove();
