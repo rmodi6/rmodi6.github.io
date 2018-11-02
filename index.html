@@ -1,5 +1,9 @@
 <?php
-  if(isset($_POST['submit'])){
+  header('Access-Control-Allow-Origin: https://rmodi6.github.io');
+  header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
+  header('Access-Control-Max-Age: 1000');
+  header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+  if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message'])){
     $to = "modi.ruchit6+webhost@gmail.com";
     $from = $_POST['email'];
     $name = $_POST['name'];
@@ -31,16 +35,6 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-109519426-1');
-
-    // Contact Me ka Thank You message
-    function thankyou() {
-      $.notify({
-        icon: 'glyphicon glyphicon-info-sign',
-        message: 'Your message has been sent!'
-      });
-      // window.alert('Your message has been sent!')
-      // window.location.reload();
-    }
     </script>
   </head>
 
@@ -345,7 +339,7 @@
         </div>
         <div class="row">
           <div class="col-sm-8 pull-left">
-            <form action="" method="post" class="form-horizontal">
+            <form action="https://modiruchit.000webhostapp.com/" method="post" class="form-horizontal">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Name</label>
                 <div class="col-sm-10">
@@ -370,7 +364,7 @@
 
               <div class="form-group">
                 <div class="col-sm-10 col-sm-offset-2">
-                  <button type="submit" name="submit" value="Submit" title="Say Hi!" onclick="thankyou();" class="btn btn-primary">Say Hi!</button>
+                  <button type="submit" name="submit" value="Submit" title="Say Hi!" class="btn btn-primary">Say Hi!</button>
                 </div>
               </div>
             </form>
@@ -423,6 +417,23 @@
       });
       $(window).on('load', function() {
         $("div").last().remove();
+      });
+
+      $("form").submit(function(e) {
+        var form = $(this);
+        $.ajax({ 
+          url: form.attr('action'),
+          type: form.attr('method'),
+          crossDomain: true,
+          data: form.serialize(),
+          success: function(response) {
+            $.notify({
+              icon: 'glyphicon glyphicon-info-sign',
+              message: 'Your message has been sent!'
+            });
+          }
+        });
+        return false;
       });
     </script>
     <div></div>
