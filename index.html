@@ -93,27 +93,37 @@
           <h2>About Me</h2>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
-                <span class="glyphicon glyphicon-book"></span>
-                <h4><strong>Academics</strong></h4>
-                <p>Pursued Bachelor of Technology Degree in Information Technology from the prestigious <strong>Veermata Jijabai Technological Institute</strong>, Mumbai. Learning about different programming languages &amp; software development.</p>
+                <span class="glyphicon glyphicon-briefcase"></span>
+                <h4><strong>Work</strong></h4>
+                <p>Working as a Software Development Engineer Level 2 at <strong>Media.Net</strong>. Developing applications that help display contextually relevant advertisement keywords on publisher pages.</p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-sm-3">
+            <div class="panel panel-default text-center">
+              <div class="panel-body">
+                <span class="glyphicon glyphicon-book"></span>
+                <h4><strong>Education</strong></h4>
+                <p>Pursued Bachelor of Technology Degree in Information Technology from the prestigious <strong>Veermata Jijabai Technological Institute</strong>, Mumbai. Learned about software development and different programming languages.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-bookmark"></span>
                 <h4><strong>Extra-Curricular</strong></h4>
-                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer for the social service club called Interact Club doing community service.<br /></p>
+                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at 'Interact Club', a social service club.<br /></p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-4">
+          <div class="col-sm-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-star"></span>
@@ -157,7 +167,7 @@
             <h3 class="featurette-heading">Machine Learning <br /><span class="text-muted">Email Classification</span></h3>
             <p class="lead">A content-based classification program to classify new emails containing a variety of messages into user-defined folders, that will help the users to organize their emails systematically and in a more convenient manner, using Machine Learning algorithms viz. K Nearest Neighbors &amp; Naïve Bayes. It was made as a Final Year Project in the B. Tech. Programme.</p>
             <a href="https://github.com/rmodi6/Email-Classification" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code-fork"></i> Fork</button></a>
-            <a href="https://link.springer.com/chapter/10.1007/978-981-10-6875-1_9" title="Springer Published Paper"><button class="btn btn-success"><i class="fa fa-paperclip"></i> Paper</button></a>
+            <a href="https://doi.org/10.1007/978-981-10-6875-1_9" title="Springer Published Paper"><button class="btn btn-success"><i class="fa fa-paperclip"></i> Paper</button></a>
           </div>
           <br />
           <div class="col-sm-5">
