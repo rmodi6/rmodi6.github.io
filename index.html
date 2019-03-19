@@ -166,8 +166,8 @@
           <div class="col-sm-7">
             <h3 class="featurette-heading">Machine Learning <br /><span class="text-muted">Email Classification</span></h3>
             <p class="lead">A content-based classification program to classify new emails containing a variety of messages into user-defined folders, that will help the users to organize their emails systematically and in a more convenient manner, using Machine Learning algorithms viz. K Nearest Neighbors &amp; Naïve Bayes. It was made as a Final Year Project in the B. Tech. Programme.</p>
-            <a href="https://github.com/rmodi6/Email-Classification" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code-fork"></i> Fork</button></a>
-            <a href="https://doi.org/10.1007/978-981-10-6875-1_9" title="Springer Published Paper"><button class="btn btn-success"><i class="fa fa-paperclip"></i> Paper</button></a>
+            <a href="https://github.com/rmodi6/Email-Classification" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code-fork"></i> Fork</button></a>
+            <a href="https://doi.org/10.1007/978-981-10-6875-1_9" title="Springer Published Paper" target="_blank"><button class="btn btn-success"><i class="fa fa-paperclip"></i> Paper</button></a>
           </div>
           <br />
           <div class="col-sm-5">
@@ -237,7 +237,7 @@
           <div class="col-sm-7">
             <h3 class="featurette-heading">Java Applets <br /><span class="text-muted">Snakes 2 Game</span></h3>
             <p class="lead">A 2-player version of the classic Snake game made using Java AWT tools in Eclipse IDE.</p>
-            <a href="snakes2/Snakes2.jar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+            <a href="snakes2/Snakes2.rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="snakes2/Snakes2.html" title="Play It!" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=300,height=300');
  return false;"><button class="btn btn-success"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
@@ -286,15 +286,14 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-sm-7 col-sm-push-5">
+          <div class="col-sm-8 col-sm-push-4">
             <h3 class="featurette-heading">Java Swing <br /><span class="text-muted">Minesweeper Game</span></h3>
             <p class="lead">The age-old annoying Minesweeper game on Windows implemented in Java using Java Swing tools that required deep knowledge of data structures and algorithms.</p>
-            <a href="download/Minesweeper Game.rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
-            <a href="download/Minesweeper_byRuchit.rar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
-            <a href="minesweeper/Minesweeper.jnlp" title="Play It!"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
+            <a href="https://github.com/rmodi6/Minesweeper-Game" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+            <a href="minesweeper/Minesweeper.jar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
           </div>
           <br />
-          <div class="col-sm-5 col-sm-pull-7">
+          <div class="col-sm-4 col-sm-pull-8">
             
             <!-- Carousel -->
             <div id="myCarousel3" class="carousel slide" data-ride="carousel">
@@ -326,6 +325,57 @@
                 <span class="sr-only">Previous</span>
               </a>
               <a class="right carousel-control" href="#myCarousel3" title="Next" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!-- End Carousel -->
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-8">
+            <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Tic Tac Toe with AI</span></h3>
+            <p class="lead">Tic Tac Toe game (a.k.a. Noughts and Crosses) with an AI opponent that either wins or draws but never loses, developed using MinMax Algorithm with alpha-beta pruning for optimization.</p>
+            <a href="https://github.com/rmodi6/TicTacToe-with-AI" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+            <a href="tictactoe/TicTacToe.jar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
+          </div>
+          <br />
+          <div class="col-sm-4">
+            
+            <!-- Carousel -->
+            <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel4" data-slide-to="1"></li>
+                <li data-target="#myCarousel4" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active carousel-tictactoe">
+                  <img class="carousel-tictactoe" src="images/tictactoe.png" alt="tictactoe image">
+                </div>
+
+                <div class="item carousel-tictactoe">
+                  <img class="carousel-tictactoe" src="images/tictactoe2.png" alt="tictactoe image">
+                </div>
+
+                <div class="item carousel-tictactoe">
+                  <img class="carousel-tictactoe" src="images/tictactoe3.png" alt="tictactoe image">
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel4" title="Previous" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel4" title="Next" role="button" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
