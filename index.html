@@ -23,7 +23,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Ruchit Modi</title>
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <link rel="stylesheet" type="text/css" href="paper/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="fa/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -98,7 +101,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-briefcase"></span>
                 <h4><strong>Work</strong></h4>
-                <p>Working as a Software Development Engineer Level 2 at <strong>Media.Net</strong>. Developing applications that help display contextually relevant advertisement keywords on publisher pages.</p>
+                <p>Former Software Development Engineer 2 at <strong>Media.Net</strong>. Developed applications that help display contextually relevant advertisement keywords on publisher pages. Former Summer Intern at <strong>Deloitte US India</strong>.</p>
               </div>
             </div>
           </div>
@@ -108,7 +111,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-book"></span>
                 <h4><strong>Education</strong></h4>
-                <p>Pursued Bachelor of Technology Degree in Information Technology from the prestigious <strong>Veermata Jijabai Technological Institute</strong>, Mumbai. Learned about software development and different programming languages.</p>
+                <p>Pursuing MS in Computer Science at <strong> Stony Brook University</strong>, New York, with interests in AI, NLP and Data Science. Earned Bachelors Degree from <strong>Veermata Jijabai Technological Institute</strong>, Mumbai.</p>
               </div>
             </div>
           </div>
