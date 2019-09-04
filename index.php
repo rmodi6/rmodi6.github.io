@@ -189,7 +189,7 @@
         <div class="row featurette">
           <div class="col-sm-7 col-sm-push-5" >
             <h3 class="featurette-heading">Database Management System <br /><span class="text-muted">Company-Clinic Database Management</span></h3>
-            <p class="lead">An application software that can be used by a company-clinic to keep records of all the employees and their relatives for their free treatment at the company&#39;s clinic along with the information of medicines &amp; prescriptions, and many other features.</p>
+            <p class="lead">A database application software that can be used by a company-clinic to keep records of all the employees and their relatives for their free treatment at the company&#39;s clinic along with the information of medicines &amp; prescriptions, and many other features. Developed using Java and MySQL.</p>
             <a href="download/Company Clinic Database System (Eclipse Project).rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="download/Company Clinic Database Management.rar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
           </div>
