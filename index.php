@@ -188,6 +188,48 @@
 
         <div class="row featurette">
           <div class="col-sm-7 col-sm-push-5" >
+            <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Pacman-AI</span></h3>
+            <p class="lead">An artificial intelligent agent for the pacman game implementing uninformed search algorithms like BFS and DFS, optimized informed search algorithms like A star and adversarial search algorithms like MiniMax and Alpha-Beta pruning.</p>
+            <a href="https://github.com/rmodi6/pacman-ai-search" title="Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+          </div>
+          <br />
+          <div class="col-sm-5 col-sm-pull-7">
+            
+              <!-- Gif -->
+              <div class="gif-images">
+                <img src="images/pacman-ai.gif" alt="pacman-ai">
+              </div>
+              <!-- End Gif -->
+            
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7">
+            <h3 class="featurette-heading">Human Computer Interaction <br /><span class="text-muted">Gesture Recognition</span></h3>
+            <p class="lead">Recognizing swipe gestures on a touchscreen keyboard or a touchpad using the <a href="http://pokristensson.com/pubs/KristenssonZhaiUIST2004.pdf" title="Shark2 Decoder" rel="nofollow">SHARK<sup>2</sup></a>
+              decoder. It has a high accuracy of ~95% of recognizing words correctly and an average runtime of ~50 ms per word.</p>
+            <a href="https://github.com/rmodi6/gesture-recognition" title="Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+            <a href="http://rmodi6.pythonanywhere.com/gesture-recognition" title="Try It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-success"><span class="glyphicon glyphicon-play"></span> Try It</button></a>
+          </div>
+          <br />
+          <div class="col-sm-5">
+            
+            <!-- Gif -->
+            <div class="gif-images">
+              <img src="images/gesture-recognition.gif" alt="gesture-recognition">
+            </div>
+            <!-- End Gif -->
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-sm-7 col-sm-push-5" >
             <h3 class="featurette-heading">Database Management System <br /><span class="text-muted">Company-Clinic Database Management</span></h3>
             <p class="lead">A database application software that can be used by a company-clinic to keep records of all the employees and their relatives for their free treatment at the company&#39;s clinic along with the information of medicines &amp; prescriptions, and many other features. Developed using Java and MySQL.</p>
             <a href="download/Company Clinic Database System (Eclipse Project).rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
@@ -241,8 +283,7 @@
             <h3 class="featurette-heading">Java Applets <br /><span class="text-muted">Snakes 2 Game</span></h3>
             <p class="lead">A 2-player version of the classic Snake game made using Java AWT tools in Eclipse IDE.</p>
             <a href="snakes2/Snakes2.rar" title="Download Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
-            <a href="snakes2/Snakes2.html" title="Play It!" onclick="window.open(this.href,'targetWindow','toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=300,height=300');
- return false;"><button class="btn btn-success"><span class="glyphicon glyphicon-play"></span> Play</button></a>
+            <a href="snakes2/Snakes2.html" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-success"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
           <div class="col-sm-5">
