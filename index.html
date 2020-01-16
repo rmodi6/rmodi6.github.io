@@ -190,7 +190,7 @@
           <div class="col-sm-7 col-sm-push-5" >
             <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Pacman-AI</span></h3>
             <p class="lead">An artificial intelligent agent for the pacman game implementing uninformed search algorithms like BFS and DFS, optimized informed search algorithms like A star and adversarial search algorithms like MiniMax and Alpha-Beta pruning.</p>
-            <a href="https://github.com/rmodi6/pacman-ai-search" title="Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
+            <a href="https://github.com/rmodi6/pacman-ai" title="Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
           </div>
           <br />
           <div class="col-sm-5 col-sm-pull-7">
