@@ -77,12 +77,11 @@
         <h1>&lt;RUCHIT-MODI&gt;</h1>
         <p>An Aspiring Coder</p>
         <ul class="share-buttons">
-          <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
-          <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
-          <li><a href="https://plus.google.com/+RuchitModi" target="_blank" title="Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
-          <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
-          <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/flat_web_icon_set/color/GitHub-light.png"></a></li>
-          <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+          <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/facebook.png"></a></li>
+          <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/twitter.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.png"></a></li>
+          <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/github-2.png"></a></li>
+          <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/gmail.png"></a></li>
         </ul>
       </div>
     </div>
@@ -189,7 +188,7 @@
         <div class="row featurette">
           <div class="col-sm-7 col-sm-push-5" >
             <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Pacman-AI</span></h3>
-            <p class="lead">An artificial intelligent agent for the pacman game implementing uninformed search algorithms like BFS and DFS, optimized informed search algorithms like A star and adversarial search algorithms like MiniMax and Alpha-Beta pruning.</p>
+            <p class="lead">An artificial intelligent agent for the Pacman game implementing uninformed search algorithms like BFS and DFS, optimized informed search algorithms like A star, adversarial search algorithms like MiniMax and Alpha-Beta pruning, and exact inference algorithms in Bayesian Networks.</p>
             <a href="https://github.com/rmodi6/pacman-ai" title="Source Code"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
           </div>
           <br />
@@ -335,6 +334,7 @@
             <p class="lead">The age-old annoying Minesweeper game on Windows implemented in Java using Java Swing tools that required deep knowledge of data structures and algorithms.</p>
             <a href="https://github.com/rmodi6/Minesweeper-Game" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="minesweeper/Minesweeper.jar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
+            <a href="https://repl.it/@rmodi6/Minesweeper-Game" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
           <div class="col-sm-4 col-sm-pull-8">
@@ -383,48 +383,19 @@
         <div class="row featurette">
           <div class="col-sm-8">
             <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Tic Tac Toe with AI</span></h3>
-            <p class="lead">Tic Tac Toe game (a.k.a. Noughts and Crosses) with an AI opponent that either wins or draws but never loses, developed using MinMax Algorithm with alpha-beta pruning for optimization.</p>
+            <p class="lead">Tic Tac Toe game (a.k.a. Noughts and Crosses) with an AI opponent that either wins or draws but never loses, developed using MiniMax Algorithm with Alpha-Beta pruning for optimization.</p>
             <a href="https://github.com/rmodi6/TicTacToe-with-AI" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="tictactoe/TicTacToe.jar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
+            <a href="https://tictactoe-with-ai.rmodi6.repl.run/" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
           <div class="col-sm-4">
             
-            <!-- Carousel -->
-            <div id="myCarousel4" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel4" data-slide-to="1"></li>
-                <li data-target="#myCarousel4" data-slide-to="2"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner" role="listbox">
-                <div class="item active carousel-tictactoe">
-                  <img class="carousel-tictactoe" src="images/tictactoe.png" alt="tictactoe image">
-                </div>
-
-                <div class="item carousel-tictactoe">
-                  <img class="carousel-tictactoe" src="images/tictactoe2.png" alt="tictactoe image">
-                </div>
-
-                <div class="item carousel-tictactoe">
-                  <img class="carousel-tictactoe" src="images/tictactoe3.png" alt="tictactoe image">
-                </div>
-              </div>
-
-              <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel4" title="Previous" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel4" title="Next" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+            <!-- Gif -->
+            <div class="gif-images-ttt">
+              <img src="images/tictactoe.gif" alt="tictactoe">
             </div>
-            <!-- End Carousel -->
+            <!-- End Gif -->
 
           </div>
         </div>
@@ -477,16 +448,15 @@
           <div class="col-sm-4">
             <p class="lead">Find me on</p>
             <ul class="share-buttons">
-              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/flat_web_icon_set/color/Facebook.png"></a></li>
-              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/flat_web_icon_set/color/Twitter.png"></a></li>
-              <li><a href="https://plus.google.com/+RuchitModi" target="_blank" title="Google+"><img src="images/flat_web_icon_set/color/Google+.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/flat_web_icon_set/color/LinkedIn.png"></a></li>
-              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/flat_web_icon_set/color/GitHub-dark.png"></a></li>
+              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/facebook.png"></a></li>
+              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/twitter.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.png"></a></li>
+              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/github.png"></a></li>
             </ul>
             <br />
             <p class="lead">Mail me at</p>
             <ul class="share-buttons">
-              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/flat_web_icon_set/color/Email.png"></a></li>
+              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/gmail.png"></a></li>
             </ul>
           </div>
         </div>
