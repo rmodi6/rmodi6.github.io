@@ -77,11 +77,11 @@
         <h1>&lt;RUCHIT-MODI&gt;</h1>
         <p>An Aspiring Coder</p>
         <ul class="share-buttons">
-          <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/facebook.png"></a></li>
-          <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/twitter.png"></a></li>
-          <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.png"></a></li>
-          <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/github-2.png"></a></li>
-          <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/gmail.png"></a></li>
+          <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/icons8-facebook-40.png"></a></li>
+          <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/icons8-twitter-circled-40.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/icons8-linkedin-circled-40.png"></a></li>
+          <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/icons8-github-40.png"></a></li>
+          <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/icons8-new-post-40.png"></a></li>
         </ul>
       </div>
     </div>
@@ -448,15 +448,15 @@
           <div class="col-sm-4">
             <p class="lead">Find me on</p>
             <ul class="share-buttons">
-              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/facebook.png"></a></li>
-              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/twitter.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/linkedin.png"></a></li>
-              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/github.png"></a></li>
+              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/icons8-facebook-48.png"></a></li>
+              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/icons8-twitter-circled-48.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/icons8-linkedin-circled-48.png"></a></li>
+              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/icons8-github-48.png"></a></li>
             </ul>
             <br />
             <p class="lead">Mail me at</p>
             <ul class="share-buttons">
-              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/gmail.png"></a></li>
+              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/icons8-new-post-48.png"></a></li>
             </ul>
           </div>
         </div>
@@ -467,7 +467,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-        <h6>&bull;Ruchit Modi&bull;</h6>
+        <h6>&bull; Ruchit Modi &bull; Icons from <a href="https://icons8.com/">Icons8.com</a> &bull;</h6>
     </footer>
     <!-- End Footer -->
     
