@@ -37,17 +37,10 @@ ul.share-buttons li{
   height: 400px;
 }
 
-.jumbotron {
-  margin-bottom: 0px;
-  background-image: url(images/wallpaper3.jpg);
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  height: 450px;
-  vertical-align: bottom;
-  text-shadow: black 0.3em 0.3em 0.3em;
-  vertical-align: bottom;
+.wordcloud {
+  /* margin-top: 50px; */
+  width: 100%;
+  margin-bottom: -100px;
 }
 
 .jumbotron h1 {
