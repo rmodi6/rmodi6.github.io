@@ -70,7 +70,7 @@
     </nav>
     <!-- End Navigation Bar -->
 
-    <!-- Jumbotron -->
+    <!-- Wordcloud -->
     <div class="container">
       <img class="wordcloud" alt="Word Cloud" src="images/wordcloud.png" usemap="#wordCloudMap">
       <map name="wordCloudMap">
@@ -82,7 +82,7 @@
         <area shape="rect" alt="2475" href="#" coords="1162.5,825,3637.5,1687.5">
       </map>
     </div>
-    <!-- End Jumbotron -->
+    <!-- End Wordcloud -->
 
     <!-- About Me -->
 
@@ -470,6 +470,7 @@
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script type="text/javascript" src="jquery/jquery.min.js"></script>
+    <!-- js to resize wordcloud image map for responsiveness -->
     <script type="text/javascript" src="jquery/imageMapResizer.min.js"></script>
     <!-- Scrolling JavaScript -->
     <script type="text/javascript">
