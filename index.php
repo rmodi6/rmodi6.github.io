@@ -22,6 +22,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ruchit Modi</title>
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
@@ -72,7 +73,7 @@
 
     <!-- Wordcloud -->
     <div class="container">
-      <img class="wordcloud" alt="Word Cloud" src="images/wordcloud.png" usemap="#wordCloudMap">
+      <img class="wordcloud img-fluid" alt="Word Cloud" src="images/wordcloud.png" usemap="#wordCloudMap">
       <map name="wordCloudMap">
         <area shape="rect" alt="825" href="mailto:modi.ruchit6+webhost@gmail.com?subject=&amp;amp;amp;body=Hi%20Ruchit%2C%0D" coords="3600,975,4425,1462.5" target="_blank">
         <area shape="rect" alt="937.5" href="https://www.github.com/rmodi6" coords="1987.5,712.5,2925,1200" target="_blank">
@@ -92,7 +93,7 @@
           <h2>About Me</h2>
         </div>
         <div class="row">
-          <div class="col-sm-3">
+          <div class="col-xs-12 col-md-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-briefcase"></span>
@@ -102,7 +103,7 @@
             </div>
           </div>
 
-          <div class="col-sm-3">
+          <div class="col-xs-12 col-md-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-book"></span>
@@ -112,17 +113,17 @@
             </div>
           </div>
 
-          <div class="col-sm-3">
+          <div class="col-xs-12 col-md-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-bookmark"></span>
                 <h4><strong>Extra-Curricular</strong></h4>
-                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at 'Interact Club', a social service club.<br /></p>
+                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at 'Interact Club', a Rotary sponsored social service club.<br /></p>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-3">
+          <div class="col-xs-12 col-md-3">
             <div class="panel panel-default text-center">
               <div class="panel-body">
                 <span class="glyphicon glyphicon-star"></span>
