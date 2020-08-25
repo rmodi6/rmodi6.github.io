@@ -98,7 +98,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-briefcase"></span>
                 <h4><strong>Work</strong></h4>
-                <p>Former Software Development Engineer 2 at <strong>Media.Net</strong>. Developed applications that help display contextually relevant advertisement keywords on publisher pages. Former Summer Intern at <strong>Deloitte US India</strong>.</p>
+                <p>Former SDE Intern at <strong>Amazon.com</strong> for Summer 2020; developed a web application for a self service tool. Former SDE 2 at <strong>Media.Net</strong> for 3 years; developed applications that help display contextually relevant advertisement keywords on publisher pages.</p>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-book"></span>
                 <h4><strong>Education</strong></h4>
-                <p>Pursuing MS in Computer Science at <strong> Stony Brook University</strong>, New York, with interests in AI, NLP and Data Science. Earned Bachelors Degree from <strong>Veermata Jijabai Technological Institute</strong>, Mumbai.</p>
+                <p>Pursuing Master of Science in Computer Science at <strong>Stony Brook University</strong>, New York, with interests in AI, NLP and Data Science graduating in December 2020. Earned Bachelors Degree in Information Technology from <strong>Veermata Jijabai Technological Institute</strong>, Mumbai.</p>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-bookmark"></span>
                 <h4><strong>Extra-Curricular</strong></h4>
-                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at 'Interact Club', a Rotary sponsored social service club.<br /></p>
+                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at <strong>'Interact Club'</strong>, a Rotary sponsored social service club organizing community service initiatives.<br /></p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-star"></span>
                 <h4><strong>Goals</strong></h4>
-                <p>To become a software engineer, and create and revolutionize technology by automating almost everything in the future. Developing softwares to help simplify various day-to-day activities.<br /><br /></p>
+                <p>To become a software engineer, and create and revolutionize technology by automating almost everything in the future. Developing applications to help simplify various day-to-day activities. Innovating solutions using state of the art technology while providing long term benefits.</p>
               </div>
             </div>
           </div>
