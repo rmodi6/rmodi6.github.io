@@ -75,12 +75,12 @@
     <div class="container">
       <img class="wordcloud img-fluid" alt="Word Cloud" src="images/wordcloud.png" usemap="#wordCloudMap">
       <map name="wordCloudMap">
-        <area shape="rect" alt="825" href="mailto:modi.ruchit6+webhost@gmail.com?subject=&amp;amp;amp;body=Hi%20Ruchit%2C%0D" coords="3600,975,4425,1462.5" target="_blank">
-        <area shape="rect" alt="937.5" href="https://www.github.com/rmodi6" coords="1987.5,712.5,2925,1200" target="_blank">
-        <area shape="rect" alt="1125" href="https://www.twitter.com/rmodi6" coords="2812.5,1350,3937.5,1781.25" target="_blank">
-        <area shape="rect" alt="1162.5" href="https://www.linkedin.com/in/rmodi6" coords="1912.5,1500,3075,1968.75" target="_blank">
-        <area shape="rect" alt="1425" href="https://www.facebook.com/rmodi6" coords="525,787.5,1950,1331.25" target="_blank">
-        <area shape="rect" alt="2475" href="#" coords="1162.5,825,3637.5,1687.5">
+        <area shape="rect" alt="Email" href="mailto:modi.ruchit6+webhost@gmail.com?subject=&amp;amp;amp;body=Hi%20Ruchit%2C%0D" coords="3600,975,4425,1462.5" target="_blank">
+        <area shape="rect" alt="Github profile" href="https://www.github.com/rmodi6" coords="1987.5,712.5,2925,1200" target="_blank">
+        <area shape="rect" alt="Twitter profile" href="https://www.twitter.com/rmodi6" coords="2812.5,1350,3937.5,1781.25" target="_blank">
+        <area shape="rect" alt="Linkedin profile" href="https://www.linkedin.com/in/rmodi6" coords="1912.5,1500,3075,1968.75" target="_blank">
+        <area shape="rect" alt="Facebook profile" href="https://www.facebook.com/rmodi6" coords="525,787.5,1950,1331.25" target="_blank">
+        <area shape="rect" alt="Homepage" href="#" coords="1162.5,825,3637.5,1687.5">
       </map>
     </div>
     <!-- End Wordcloud -->
@@ -247,15 +247,15 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active carousel-ccds">
-                  <img  class="carousel-ccds" src="images/ccds.png" alt="ccds">
+                  <img  class="carousel-ccds" src="images/ccds.png" alt="Company-Clinic Database System sample 1">
                 </div>
 
                 <div class="item carousel-ccds">
-                  <img class="carousel-ccds" src="images/ccds4.png" alt="ccds4">
+                  <img class="carousel-ccds" src="images/ccds4.png" alt="Company-Clinic Database System sample 2">
                 </div>
 
                 <div class="item carousel-ccds">
-                  <img class="carousel-ccds" src="images/ccds5.png" alt="ccds5">
+                  <img class="carousel-ccds" src="images/ccds5.png" alt="Company-Clinic Database System sample 3">
                 </div>
               </div>
 
@@ -297,15 +297,15 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active carousel-snakes2">
-                  <img class="carousel-snakes2" src="images/snakes.png" alt="snakes2 image">
+                  <img class="carousel-snakes2" src="images/snakes.png" alt="Snakes 2 sample 1">
                 </div>
 
                 <div class="item carousel-snakes2">
-                  <img class="carousel-snakes2" src="images/snakes2.png" alt="snakes2 image">
+                  <img class="carousel-snakes2" src="images/snakes2.png" alt="Snakes 2 sample 2">
                 </div>
 
                 <div class="item carousel-snakes2">
-                  <img class="carousel-snakes2" src="images/snakes3.png" alt="snakes2 image">
+                  <img class="carousel-snakes2" src="images/snakes3.png" alt="Snakes 2 sample 3">
                 </div>
               </div>
 
@@ -349,15 +349,15 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active carousel-minesweeper">
-                  <img class="carousel-minesweeper" src="images/minesweeper.png" alt="minesweeper image">
+                  <img class="carousel-minesweeper" src="images/minesweeper.png" alt="Minesweeper-Game sample 1">
                 </div>
 
                 <div class="item carousel-minesweeper">
-                  <img class="carousel-minesweeper" src="images/minesweeper2.png" alt="minesweeper image">
+                  <img class="carousel-minesweeper" src="images/minesweeper2.png" alt="Minesweeper-Game sample 2">
                 </div>
 
                 <div class="item carousel-minesweeper">
-                  <img class="carousel-minesweeper" src="images/minesweeper3.png" alt="minesweeper image">
+                  <img class="carousel-minesweeper" src="images/minesweeper3.png" alt="Minesweeper-Game sample 3">
                 </div>
               </div>
 
@@ -391,7 +391,7 @@
             
             <!-- Gif -->
             <div class="gif-images-ttt">
-              <img src="images/tictactoe.gif" alt="tictactoe">
+              <img src="images/tictactoe.gif" alt="tictactoe-gif">
             </div>
             <!-- End Gif -->
 
@@ -446,15 +446,15 @@
           <div class="col-sm-4">
             <p class="lead">Find me on</p>
             <ul class="share-buttons">
-              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/icons8-facebook-48.png"></a></li>
-              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/icons8-twitter-circled-48.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/icons8-linkedin-circled-48.png"></a></li>
-              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/icons8-github-48.png"></a></li>
+              <li><a href="https://www.facebook.com/rmodi6" title="Facebook" target="_blank"><img src="images/icons/icons8-facebook-48.png" alt="Facebook profile"></a></li>
+              <li><a href="https://twitter.com/rmodi6" target="_blank" title="Twitter"><img src="images/icons/icons8-twitter-circled-48.png" alt="Twitter profile"></a></li>
+              <li><a href="https://www.linkedin.com/in/rmodi6" target="_blank" title="LinkedIn"><img src="images/icons/icons8-linkedin-circled-48.png" alt="Linkedin profile"></a></li>
+              <li><a href="https://github.com/rmodi6" target="_blank" title="GitHub"><img src="images/icons/icons8-github-48.png" alt="Github profile"></a></li>
             </ul>
             <br />
             <p class="lead">Mail me at</p>
             <ul class="share-buttons">
-              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/icons8-new-post-48.png"></a></li>
+              <li><a href="mailto:modi.ruchit6+webhost@gmail.com?subject=&body=Hi%20Ruchit%2C%0D" target="_blank" title="Email"><img src="images/icons/icons8-new-post-48.png" alt="Email"></a></li>
             </ul>
           </div>
         </div>
