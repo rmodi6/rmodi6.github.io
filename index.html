@@ -327,7 +327,7 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-sm-8 col-sm-push-4">
+          <div class="col-sm-7 col-sm-push-5">
             <h3 class="featurette-heading">Java Swing <br /><span class="text-muted">Minesweeper Game</span></h3>
             <p class="lead">The age-old annoying Minesweeper game on Windows implemented in Java using Java Swing tools that required deep knowledge of data structures and algorithms.</p>
             <a href="https://github.com/rmodi6/Minesweeper-Game" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
@@ -335,7 +335,7 @@
             <a href="https://repl.it/@rmodi6/Minesweeper-Game" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
-          <div class="col-sm-4 col-sm-pull-8">
+          <div class="col-sm-5 col-sm-pull-7">
             
             <!-- Carousel -->
             <div id="myCarousel3" class="carousel slide" data-ride="carousel">
@@ -379,7 +379,7 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-sm-8">
+          <div class="col-sm-7">
             <h3 class="featurette-heading">Artificial Intelligence <br /><span class="text-muted">Tic Tac Toe with AI</span></h3>
             <p class="lead">Tic Tac Toe game (a.k.a. Noughts and Crosses) with an AI opponent that either wins or draws but never loses, developed using MiniMax Algorithm with Alpha-Beta pruning for optimization.</p>
             <a href="https://github.com/rmodi6/TicTacToe-with-AI" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
@@ -387,7 +387,7 @@
             <a href="https://tictactoe-with-ai.rmodi6.repl.run/" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
-          <div class="col-sm-4">
+          <div class="col-sm-5">
             
             <!-- Gif -->
             <div class="gif-images-ttt">
