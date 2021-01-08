@@ -108,7 +108,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-book"></span>
                 <h4><strong>Education</strong></h4>
-                <p>Pursuing Master of Science in Computer Science at <strong>Stony Brook University</strong>, New York, with interests in AI, NLP and Data Science graduating in December 2020. Earned Bachelors Degree in Information Technology from <strong>Veermata Jijabai Technological Institute</strong>, Mumbai.</p>
+                <p>Earned Master's degree in Computer Science with a specialization in Data Science and Engineering from <strong>Stony Brook University</strong>, New York. Earned Bachelor's Degree in Information Technology from <strong>Veermata Jijabai Technological Institute</strong>, Mumbai.<br /><br /></p>
               </div>
             </div>
           </div>
