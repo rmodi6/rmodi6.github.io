@@ -486,12 +486,18 @@
     <script type="text/javascript" src="paper/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="paper/js/bootstrap-notify.min.js"></script>
     <script type="text/javascript">
+      // Collapse navbar on click
+      $('.nav a').click(function() {
+        $('.navbar-toggle').click();
+      });
+      // Remove advertisement div
       $('#mindmap').on('load', function() {
         $("#mindmap").contents().find("div").last().remove();
       });
       $(window).on('load', function() {
         $("div").last().remove();
       });
+      // Resize imagemap for responsiveness
       $(document).ready(function () {
         $("map").imageMapResize();
       });
