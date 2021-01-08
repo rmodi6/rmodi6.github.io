@@ -411,7 +411,7 @@
           <h3>Contact Me</h3>
         </div>
         <div class="row">
-          <div class="col-sm-8 pull-left">
+          <div class="col-sm-8">
             <form action="https://modiruchit.000webhostapp.com/" method="post" class="form-horizontal">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Name</label>
