@@ -98,7 +98,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-briefcase"></span>
                 <h4><strong>Work</strong></h4>
-                <p>Former SDE Intern at <strong>Amazon.com</strong> for Summer 2020; developed a web application for a self service tool. Former SDE 2 at <strong>Media.Net</strong> for 3 years; developed applications that help display contextually relevant advertisement keywords on publisher pages.</p>
+                <p>Software Development Engineer at <strong>Amazon.com</strong> working on creating a unified, surface agnostic Card-Based User Experience for customers. Former SDE 2 at <strong>Media.Net</strong>; developed applications that help display contextually relevant advertisement keywords on publisher pages.</p>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-bookmark"></span>
                 <h4><strong>Extra-Curricular</strong></h4>
-                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (&amp; won some of them). Held the post of Treasurer at <strong>'Interact Club'</strong>, a Rotary sponsored social service club organizing community service initiatives.<br /></p>
+                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (and won some of them). Held the post of Treasurer at <strong>'Interact Club'</strong>, a Rotary sponsored social service club organizing community service initiatives at high school level.<br /></p>
               </div>
             </div>
           </div>
