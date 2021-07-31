@@ -119,7 +119,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-bookmark"></span>
                 <h4><strong>Extra-Curricular</strong></h4>
-                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (and won some of them). Held the post of Treasurer at <strong>'Interact Club'</strong>, a Rotary sponsored social service club organizing community service initiatives at high school level.<br /></p>
+                <p>From Kindergarten to High School, participated in various academic and non-academic competitions (and won some of them). Held the post of Treasurer at <strong>'Interact Club'</strong>, a Rotary sponsored social service club organizing community service initiatives at high school level.<br /><br /></p>
               </div>
             </div>
           </div>
