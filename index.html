@@ -28,7 +28,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
-    <link rel="stylesheet" type="text/css" href="paper/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css" id="theme-link">
     <link rel="stylesheet" type="text/css" href="fa/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
     
@@ -59,6 +59,7 @@
         <!-- navbar-collapse -->
         <div class="collapse navbar-collapse" id="navbar">
           <a href="download/Resume_Ruchit_Modi.pdf" title="Download My Resume" class="btn btn-success navbar-btn navbar-right"><span class="glyphicon glyphicon-file"></span> Resume</a>
+          <a title="Toggle theme" class="btn btn-success navbar-btn navbar-right" id="theme-toggle"><i class="fa fa-moon-o"></i></a>
           <ul class="nav navbar-nav">
             <li role="presentation" class="active"><a class="smooth-scroll" href="#about-me" title="Read About Me">About Me</a></li>
             <li role="presentation"><a class="smooth-scroll" href="#skills" title="Look At My Skills">Skills</a></li>
@@ -486,6 +487,21 @@
     <script type="text/javascript" src="paper/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="paper/js/bootstrap-notify.min.js"></script>
     <script type="text/javascript">
+
+      // Toggle theme
+      const btn = document.querySelector("#theme-toggle");
+      const themeToggleIcon = document.querySelector("#theme-toggle>i");
+      const theme = document.querySelector("#theme-link");
+      btn.addEventListener("click", function() {
+        if (theme.getAttribute("href").includes("flatly")) {
+          theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/darkly/bootstrap.min.css";
+          themeToggleIcon.className = "fa fa-sun-o";
+        } else {
+          theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css";
+          themeToggleIcon.className = "fa fa-moon-o";
+        }
+      });
+
       // Collapse navbar on click
       $('.nav a').click(function() {
         $('.navbar-toggle').click();

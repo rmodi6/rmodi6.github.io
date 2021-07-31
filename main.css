@@ -39,7 +39,7 @@ ul.share-buttons li{
 
 .wordcloud {
   margin-top: 50px;
-  margin-bottom: -50px;
+  margin-bottom: 0px;
   width: 100%;
 }
 
