@@ -74,7 +74,7 @@
 
     <!-- Wordcloud -->
     <div class="container">
-      <img class="wordcloud img-fluid" alt="Word Cloud" src="images/wordcloud.png" usemap="#wordCloudMap">
+      <img id="wordcloud" class="wordcloud img-fluid" alt="Word Cloud" src="images/wordcloud-light.png" usemap="#wordCloudMap">
       <map name="wordCloudMap">
         <area shape="rect" alt="Email" href="mailto:modi.ruchit6+webhost@gmail.com?subject=&amp;amp;amp;body=Hi%20Ruchit%2C%0D" coords="3600,975,4425,1462.5" target="_blank">
         <area shape="rect" alt="Github profile" href="https://www.github.com/rmodi6" coords="1987.5,712.5,2925,1200" target="_blank">
@@ -491,14 +491,17 @@
       // Toggle theme
       const btn = document.querySelector("#theme-toggle");
       const themeToggleIcon = document.querySelector("#theme-toggle>i");
+      const wordcloudEle = document.querySelector("#wordcloud");
       const theme = document.querySelector("#theme-link");
       btn.addEventListener("click", function() {
         if (theme.getAttribute("href").includes("flatly")) {
           theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/darkly/bootstrap.min.css";
           themeToggleIcon.className = "fa fa-sun-o";
+          wordcloudEle.src = "images/wordcloud-dark.png";
         } else {
           theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css";
           themeToggleIcon.className = "fa fa-moon-o";
+          wordcloudEle.src = "images/wordcloud-light.png";
         }
       });
 
