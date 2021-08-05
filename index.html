@@ -498,10 +498,12 @@
           theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/darkly/bootstrap.min.css";
           themeToggleIcon.className = "fa fa-sun-o";
           wordcloudEle.src = "images/wordcloud-dark.png";
+          $("#mindmap").contents().find("#mindmap-style").attr("href", "style-dark.css");
         } else {
           theme.href = "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.4.0/flatly/bootstrap.min.css";
           themeToggleIcon.className = "fa fa-moon-o";
           wordcloudEle.src = "images/wordcloud-light.png";
+          $("#mindmap").contents().find("#mindmap-style").attr("href", "style.css");
         }
       });
 
