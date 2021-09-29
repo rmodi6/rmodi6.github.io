@@ -385,7 +385,7 @@
             <p class="lead">Tic Tac Toe game (a.k.a. Noughts and Crosses) with an AI opponent that either wins or draws but never loses, developed using MiniMax Algorithm with Alpha-Beta pruning for optimization.</p>
             <a href="https://github.com/rmodi6/TicTacToe-with-AI" title="Source Code" target="_blank"><button class="btn btn-primary"><i class="fa fa-code"></i> Source Code</button></a>
             <a href="tictactoe/TicTacToe.jar" title="Download Application"><button class="btn btn-success"><span class="glyphicon glyphicon-download-alt"></span> Application</button></a>
-            <a href="https://tictactoe-with-ai.rmodi6.repl.run/" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
+            <a href="https://replit.com/@rmodi6/TicTacToe-with-AI" title="Play It!" onclick="window.open(this.href,'targetWindow'); return false;"><button class="btn btn-primary"><span class="glyphicon glyphicon-play"></span> Play</button></a>
           </div>
           <br />
           <div class="col-sm-5">
