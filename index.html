@@ -99,7 +99,7 @@
               <div class="panel-body">
                 <span class="glyphicon glyphicon-briefcase"></span>
                 <h4><strong>Work</strong></h4>
-                <p>Software Development Engineer at <strong>Amazon.com</strong> working on creating a unified, surface agnostic Card-Based User Experience for customers. Former SDE 2 at <strong>Media.Net</strong>; developed applications that help display contextually relevant advertisement keywords on publisher pages.</p>
+                <p>Software Engineer II at <strong>Microsoft</strong> improving the experience of more than 1 billion Windows customers. Former SDE at <strong>Amazon</strong> in the Kindle Books org. Former SDE 2 at <strong>Media.Net</strong>; developed applications that help display contextually relevant advertisement keywords on publisher pages.</p>
               </div>
             </div>
           </div>
