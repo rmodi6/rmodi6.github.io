@@ -1,0 +1,38 @@
+body {
+    background: #222222;
+  }
+  .js-mindmap-active a.node {
+    background: #2196F3;
+    border: 2px solid black;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+  }
+  .js-mindmap-active a.node:hover {
+    background: #1565C0;
+    border: 2px solid black;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+  }
+  .js-mindmap-active a.node.active {
+    background: #1565C0;
+    padding:5px 10px !important;
+    border-width:4px !important;
+  }
+  .js-mindmap-active a.node.activeparent {
+    padding: 5px 10px !important;
+    border-width: 3px !important;
+    background: #00bc8c;
+  }
+  .js-mindmap-active a.node.activeparent:hover {
+    padding: 5px 10px !important;
+    border-width: 3px !important;
+    background: #15a589;
+  }
